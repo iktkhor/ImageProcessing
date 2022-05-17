@@ -1,0 +1,12 @@
+﻿  task.cpp
+C:\tkhor_i_n\prj.labs\kr\task.cpp(17,40): warning C4305: =: усечение из "double" в "_Tp"
+          with
+          [
+              _Tp=float
+          ]
+C:\tkhor_i_n\prj.labs\kr\task.cpp(18,40): warning C4305: =: усечение из "double" в "_Tp"
+          with
+          [
+              _Tp=float
+          ]
+  task.vcxproj -> C:\tkhor_i_n\bin.dbg\task.exe

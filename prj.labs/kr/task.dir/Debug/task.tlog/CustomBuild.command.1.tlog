@@ -1,0 +1,10 @@
+^C:\TKHOR_I_N\PRJ.LABS\KR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/tkhor_i_n -BC:/tkhor_i_n/build.vs.2019 --check-stamp-file C:/tkhor_i_n/build.vs.2019/prj.labs/kr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
